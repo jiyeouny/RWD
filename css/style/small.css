@@ -1,0 +1,30 @@
+body{
+    background-color: pink;
+    font-size: 1.4rem;
+}
+
+.appHeader, .appMain, .appFooter{
+    width: 100%;
+}
+
+.container section, article{
+    padding: 0 20px;
+}
+
+/* left, right로 했을경우 성능이 떨어짐! animation효과 사용할것 */
+.appNavigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* right: 100%; */
+    width: 70vw;
+    height: 100vh;
+    transform: translate(-100%);
+}
+.appMain{
+    min-height: 70vh;
+}
+
+.book, .news, .board, .favorite, .twitter{
+    width: 100%;
+}

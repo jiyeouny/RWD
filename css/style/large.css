@@ -1,0 +1,65 @@
+body{
+    background-color: skyblue;
+    font-size: 1.6rem;
+}
+
+.container{
+    justify-content: center;
+}
+
+.appHeader, .appMain{
+    width: 1000px;
+}
+
+.appNavigation, .appFooter{
+    width: 100%;
+}
+
+/* flex 사용했을때 */
+.appMain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.book{
+    width: 320px;
+}
+
+.news{
+    width: 660px;
+    /* margin-left: 20px; */
+}
+
+.board{
+    width: 320px;
+}
+
+.twitter{
+    width: 420px;
+    /* margin: 0 20px; */
+}
+
+.favorite{
+    width: 220px;
+    /* order: 1; */
+}
+
+ /* float 사용했을때 */
+/* .book, .board, .twitter{
+    float: left;
+}
+
+.favorite, .news{
+    float: right;
+}
+
+.appMain::after{
+    content: "";
+    clear: both;
+    display: block;
+} 
+
+.appHeader{
+    margin: 0 auto;
+} */
